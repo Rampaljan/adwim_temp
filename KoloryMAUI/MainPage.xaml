@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KoloryMAUI.MainPage">
+
+    <Grid RowSpacing="25" Padding="30"
+      RowDefinitions="*,Auto,Auto,Auto, Auto, Auto"
+      ColumnDefinitions="*,Auto"
+      ColumnSpacing="25">
+
+        <Rectangle x:Name="rectangle" Grid.Row="0" Grid.ColumnSpan="2" Fill="Black" />
+
+        <Slider x:Name="sliderR" Grid.Row="1" ValueChanged="sliderR_ValueChanged" />
+        <Label x:Name="labelR" Grid.Row="1" Grid.Column="1"
+           Text="0" TextColor="Red" FontSize="Medium" />
+
+        <Slider x:Name="sliderG" Grid.Row="2" ValueChanged="sliderR_ValueChanged" />
+        <Label x:Name="labelG" Grid.Row="2" Grid.Column="1"
+           Text="0" TextColor="Green" FontSize="Medium" />
+
+        <Slider x:Name="sliderB" Grid.Row="3" ValueChanged="sliderR_ValueChanged" />
+        <Label x:Name="labelB" Grid.Row="3" Grid.Column="1"
+           Text="0" TextColor="Blue" FontSize="Medium" />
+
+        <Button x:Name="reset" Grid.Row="4" Grid.Column="1" Text="Reset" Clicked="reset_po_kliku" />
+        <Button x:Name="losuj" Grid.Row="5" Grid.Column="1" Text="Losuj" Clicked="losowanie" />
+        
+    </Grid>
+
+</ContentPage>
