@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\student\\source\\repos\\pesele_menele\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2726ED12-736B-4782-A226-2B40F65819C7}|pesele_menele\\pesele_menele.csproj|c:\\users\\student\\source\\repos\\pesele_menele\\pesele_menele\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2726ED12-736B-4782-A226-2B40F65819C7}|pesele_menele\\pesele_menele.csproj|solutionrelative:pesele_menele\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2726ED12-736B-4782-A226-2B40F65819C7}|pesele_menele\\pesele_menele.csproj|c:\\users\\student\\source\\repos\\pesele_menele\\pesele_menele\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2726ED12-736B-4782-A226-2B40F65819C7}|pesele_menele\\pesele_menele.csproj|solutionrelative:pesele_menele\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\pesele_menele\\pesele_menele\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "pesele_menele\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\pesele_menele\\pesele_menele\\MainPage.xaml.cs",
+              "RelativeToolTip": "pesele_menele\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T07:33:27.324Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\pesele_menele\\pesele_menele\\MainPage.xaml",
+              "RelativeDocumentMoniker": "pesele_menele\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\pesele_menele\\pesele_menele\\MainPage.xaml",
+              "RelativeToolTip": "pesele_menele\\MainPage.xaml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-23T07:32:18.952Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
