@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pesele_menele")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9a4662cef6089d98448cfe58579000c67db2b75e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+abeaf1c44360ae6b8e8f5140dd8089acdaa74297")]
 [assembly: System.Reflection.AssemblyProductAttribute("pesele_menele")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pesele_menele")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
