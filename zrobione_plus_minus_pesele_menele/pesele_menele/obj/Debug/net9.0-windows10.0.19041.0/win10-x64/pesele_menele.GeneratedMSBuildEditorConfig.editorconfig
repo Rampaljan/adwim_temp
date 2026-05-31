@@ -10,7 +10,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = pesele_menele
-build_property.ProjectDir = E:\aaa_experto_cwelite\KasynoBanino\pesele_menele\pesele_menele\
+build_property.ProjectDir = C:\Users\rampa\Documents\GitHub\adwim_temp\zrobione_plus_minus_pesele_menele\pesele_menele\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -24,31 +24,31 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[E:/aaa_experto_cwelite/KasynoBanino/pesele_menele/pesele_menele/App.xaml]
+[C:/Users/rampa/Documents/GitHub/adwim_temp/zrobione_plus_minus_pesele_menele/pesele_menele/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = pesele_menele.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[E:/aaa_experto_cwelite/KasynoBanino/pesele_menele/pesele_menele/AppShell.xaml]
+[C:/Users/rampa/Documents/GitHub/adwim_temp/zrobione_plus_minus_pesele_menele/pesele_menele/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = pesele_menele.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[E:/aaa_experto_cwelite/KasynoBanino/pesele_menele/pesele_menele/MainPage.xaml]
+[C:/Users/rampa/Documents/GitHub/adwim_temp/zrobione_plus_minus_pesele_menele/pesele_menele/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = pesele_menele.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[E:/aaa_experto_cwelite/KasynoBanino/pesele_menele/pesele_menele/Resources/Styles/Colors.xaml]
+[C:/Users/rampa/Documents/GitHub/adwim_temp/zrobione_plus_minus_pesele_menele/pesele_menele/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = pesele_menele.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[E:/aaa_experto_cwelite/KasynoBanino/pesele_menele/pesele_menele/Resources/Styles/Styles.xaml]
+[C:/Users/rampa/Documents/GitHub/adwim_temp/zrobione_plus_minus_pesele_menele/pesele_menele/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = pesele_menele.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
