@@ -1,4 +1,4 @@
-﻿namespace mvvm_template
+namespace mvvm_template
 {
     public partial class AppShell : Shell
     {
