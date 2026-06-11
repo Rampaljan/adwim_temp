@@ -11,3 +11,5 @@ prace do zrobienia
 - sprawdzian z paszportem
 
 - aplikacja todo
+
+dodatkowo repo zawiera template do MVVM
