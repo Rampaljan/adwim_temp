@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using todoapp.ViewModels;
+using todoapp;
 
 namespace todoapp
 {
@@ -16,8 +18,11 @@ namespace todoapp
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
+
+            builder.Services.AddTransient<MainViewModel>();
+            builder.Services.AddTransient<MainPage>();
 
             return builder.Build();
         }

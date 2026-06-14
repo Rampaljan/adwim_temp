@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{129E3DA5-5713-5354-B332-BA5ED098B372}|mvvm_template.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,63 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
               "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T10:04:53.231Z"
+              "WhenOpened": "2026-06-11T10:04:53.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-11T19:06:34.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T18:43:33.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-06-11T11:21:39.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\testowanie_viewmodeli\\mvvm_template\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T10:04:49.172Z",
               "EditorCaption": ""
