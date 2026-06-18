@@ -14,7 +14,7 @@ namespace mvvm_template.ViewModels
         string wynik;
 
         [ObservableProperty]
-        string kolorWyniku;
+        string kolorWyniku = "#1f1f1f";
 
         [RelayCommand]
         public async Task Wroc()
