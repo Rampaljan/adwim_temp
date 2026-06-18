@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="mvvm_template.SettingsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:mvvm_template.ViewModels">
+
+
+    <VerticalStackLayout Padding="20">
+        <Label FontSize="20" Text="Tryb jasny" />
+        <Switch IsToggled="{Binding CzyJasny}" />
+        <Button Command="{Binding WrocCommand}" Text="Wróć do kalkulatora" />
+    </VerticalStackLayout>
+
+</ContentPage>

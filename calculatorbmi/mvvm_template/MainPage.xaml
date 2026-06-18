@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="mvvm_template.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Calculator BMI" />
+            <Entry Placeholder="Waga" Text="{Binding Waga}">
+                <!--<Entry.Behaviors>
+                    <toolkit:NumericValidationBehavior
+                        MaximumDecimalPlaces="2"
+                        MaximumValue="300.0"
+                        MinimumValue="1.0" />
+                </Entry.Behaviors>-->
+            </Entry>
+
+            <!--  chcialem dac w tych entry jakis numeric validation behavior bo czegos takiego jak numericonlybehavior co jest wspomniane w readme to nie znalazłem. Niby mogę jeszcze użyc CharactersValidationBehavior (tez znalazlem w sieci) i to mi zablokuje mozliwosc wpisania literek, ale ja sobie ta walidacje i blokowanie buttona zrobie po porstu w code behind z uzyciem onchange i tyle  -->
+
+            <Entry Placeholder="Wzrost" Text="{Binding Wzrost}">
+                <!--<Entry.Behaviors>
+                    <toolkit:NumericValidationBehavior
+                        MaximumDecimalPlaces="2"
+                        MaximumValue="300.0"
+                        MinimumValue="1.0" />
+                </Entry.Behaviors>-->
+            </Entry>
+
+            <Button
+                BackgroundColor="{Binding Kolor}"
+                Command="{Binding ObliczCommand}"
+                Text="Oblicz" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
