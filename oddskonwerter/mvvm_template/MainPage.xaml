@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="mvvm_template.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:behaviors="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+
+    <ContentPage.Resources>
+        <Style x:Key="BorderBoxStyle" TargetType="Border">
+            <Setter Property="Stroke" Value="#512bd4" />
+            <Setter Property="StrokeThickness" Value="1" />
+            <Setter Property="StrokeShape" Value="RoundRectangle 15" />
+            <Setter Property="Padding" Value="10" />
+        </Style>
+        <Style x:Key="resultBox" TargetType="Border">
+            <Setter Property="BackgroundColor" Value="#512bd4" />
+            <Setter Property="MaximumHeightRequest" Value="200" />
+            <Setter Property="MaximumWidthRequest" Value="200" />
+            <Setter Property="StrokeShape" Value="RoundRectangle 15" />
+            <Setter Property="Padding" Value="40" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            <!--  CONVERT FROM  -->
+            <Grid ColumnDefinitions="*, *" ColumnSpacing="20">
+                <Border Style="{StaticResource BorderBoxStyle}">
+                    <VerticalStackLayout>
+                        <Label
+                            Margin="0,0,0,8"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            HorizontalOptions="Center"
+                            Text="Convert from" />
+
+                        <RadioButton
+                            Content="Decimal odds"
+                            GroupName="From"
+                            IsChecked="{Binding IsFromDecimal}" />
+
+                        <RadioButton
+                            Content="Fraction odds"
+                            GroupName="From"
+                            IsChecked="{Binding IsFromFraction}" />
+
+                        <RadioButton
+                            Content="American odds"
+                            GroupName="From"
+                            IsChecked="{Binding IsFromAmerican}" />
+
+                        <RadioButton
+                            Content="Shares"
+                            GroupName="From"
+                            IsChecked="{Binding IsFromShares}" />
+
+                    </VerticalStackLayout>
+                </Border>
+
+                <!--  CONVERT TO  -->
+                <Border Grid.Column="1" Style="{StaticResource BorderBoxStyle}">
+                    <VerticalStackLayout>
+                        <Label
+                            Margin="0,0,0,8"
+                            FontAttributes="Bold"
+                            FontSize="16"
+                            HorizontalOptions="Center"
+                            Text="Convert to" />
+
+                        <RadioButton
+                            Content="Decimal odds"
+                            GroupName="To"
+                            IsChecked="{Binding IsToDecimal}" />
+
+                        <RadioButton
+                            Content="Fraction odds"
+                            GroupName="To"
+                            IsChecked="{Binding IsToFraction}" />
+
+                        <RadioButton
+                            Content="American odds"
+                            GroupName="To"
+                            IsChecked="{Binding IsToAmerican}" />
+
+                        <RadioButton
+                            Content="Shares"
+                            GroupName="To"
+                            IsChecked="{Binding IsToShares}" />
+
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+
+            <VerticalStackLayout Spacing="8">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="Parameters" />
+                <Grid ColumnDefinitions="*, *" ColumnSpacing="15">
+                    <VerticalStackLayout>
+                        <Label FontSize="14" Text="Odds" />
+                        <Entry Text="{Binding Odds}" />
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label FontSize="14" Text="Size" />
+                        <Entry Text="{Binding Size}" />
+                    </VerticalStackLayout>
+                </Grid>
+            </VerticalStackLayout>
+
+            <Grid ColumnDefinitions="*, *, *" ColumnSpacing="15">
+
+                <Border Style="{StaticResource resultBox}">
+                    <VerticalStackLayout>
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="14"
+                            HorizontalOptions="Center"
+                            Text="Converted odds" />
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Text="{Binding Convertedodds}" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border Grid.Column="1" Style="{StaticResource resultBox}">
+                    <VerticalStackLayout>
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="14"
+                            HorizontalOptions="Center"
+                            Text="Payout" />
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Text="{Binding Payout}" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border Grid.Column="2" Style="{StaticResource resultBox}">
+                    <VerticalStackLayout>
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="14"
+                            HorizontalOptions="Center"
+                            Text="Win" />
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Text="{Binding Win}" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+            <Label Text="{Binding Test}" />
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>
