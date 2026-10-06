@@ -1,0 +1,32 @@
+[
+  {
+    "index": 0,
+    "title": "Zamek Królewski w Warszawie",
+    "description": "Zamek Królewski w Warszawie to historyczny zamek położony w centrum Warszawy, będący dawną rezydencją królów Polski. Zamek został zniszczony podczas II wojny światowej, a następnie odbudowany w latach 1971-1984. Obecnie pełni funkcję muzeum i jest jednym z najważniejszych zabytków stolicy.",
+    "city": "Warszawa"
+  },
+  {
+    "index": 1,
+    "title": "Zamek w Malborku",
+    "description": "Zamek w Malborku to zabytek renesansowy położony w Malborku, w województwie kujawsko-pomorskim. Zamek był rezydencją magnatów, a obecnie pełni funkcję muzeum.",
+    "city": "Malbork"
+  },
+  {
+    "index": 2,
+    "title": "Żuraw w Gdańsku",
+    "description": "Żuraw w Gdańsku to zabytkowy dźwig portowy położony nad Motławą, będący jednym z symboli miasta. Żuraw został zbudowany w XIV wieku i pełnił funkcję dźwigu do podnoszenia towarów oraz bramy miejskiej. Obecnie jest częścią Muzeum Morskiego i stanowi atrakcję turystyczną.",
+    "city": "Gdańsk"
+  },
+  {
+    "index": 3,
+    "title": "Smok Wawelski",
+    "description": "Smok Wawelski to legendarne stworzenie z polskiej mitologii, które według legendy mieszkało w jaskini pod Wawelem w Krakowie. Smok był postrachem mieszkańców miasta, aż do momentu, gdy został pokonany przez szewca Skubę, który podstępem nakarmił go siarką. Dziś Smok Wawelski jest symbolem Krakowa i znajduje się w formie rzeźby przy wejściu do Smoczej Jamy.",
+    "city": "Kraków"
+  },
+  {
+    "index": 4,
+    "title": "Zamek Królewski na Wawelu",
+    "description": "Zamek królewski na Wawelu to zabytek architektury położony w Krakowie, będący dawną rezydencją królów Polski. Zamek został zbudowany w XIV wieku i pełnił funkcję siedziby królewskiej oraz centrum administracyjnego. Obecnie jest muzeum i jednym z najważniejszych zabytków Krakowa.",
+    "city": "Kraków"
+  }
+]
