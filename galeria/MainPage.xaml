@@ -1,21 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="galeria.MainPage">
+<ContentPage
+    x:Class="galeria.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="White">
+    <!--to se colors.xaml wzialem
+    <Color x:Key="Tertiary">#2B0B98</Color>
+    <Color x:Key="Primary">#512BD4</Color>-->
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Label Text="{Binding Title}"/>
-            <Label Text="{Binding Opis}"/>
-            <Label Text="{Binding Likes}"/>
-            <Button Command="{Binding likeCommand}" Text="Polób"/>
-            <Button Command="{Binding unlikeCommand}" Text="Usuń"/>
-            <Button Command="{Binding locCommand}" Text="Lokalizacja"/>
-            <Button Command="{Binding nextCommand}" Text="Następne"/>
-            <Button Command="{Binding prevCommand}" Text="Poprzednie"/>
-            <Image Source="{Binding Path}"/>
-        </VerticalStackLayout>
-    </ScrollView>
+    <Grid RowDefinitions="*, Auto">
+        <ScrollView Grid.Row="0">
+            <StackLayout>
+                <VerticalStackLayout Spacing="0">
+
+                    <Label
+                        Padding="0,15"
+                        FontSize="22"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding Title}"
+                        TextColor="#512BD4" />
+
+                    <Image Aspect="AspectFit" Source="{Binding Path}" />
+
+                    <HorizontalStackLayout BackgroundColor="#2B0B98">
+                        <!--  prawy margin jest zero to sie ladnie do cyferki przyklei  -->
+                        <Label
+                            Padding="10,10,0,10"
+                            FontSize="14"
+                            Text="Liczba polubień: "
+                            TextColor="White" />
+
+                        <!--  analogicznie tutaj tylko ze z lewej  -->
+                        <Label
+                            Padding="0,10,10,10"
+                            FontSize="14"
+                            Text="{Binding Likes}"
+                            TextColor="White" />
+                    </HorizontalStackLayout>
+
+
+                    <HorizontalStackLayout BackgroundColor="#512BD4" Spacing="60">
+                        <Button
+                            Padding="40,0,20,0"
+                            Command="{Binding likeCommand}"
+                            Text="Polub" />
+                        <Button
+                            Padding="20,0,20,0"
+                            Command="{Binding unlikeCommand}"
+                            Text="Usuń" />
+                        <Button
+                            Padding="20,0,20,0"
+                            Command="{Binding locCommand}"
+                            Text="Lokalizacja" />
+                    </HorizontalStackLayout>
+
+                    <VerticalStackLayout Padding="10,10" Spacing="8">
+                        <Label FontSize="18" Text="Opis" />
+                        <Label FontSize="14" Text="{Binding Opis}" />
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout
+            Grid.Row="1"
+            HorizontalOptions="Center"
+            Orientation="Horizontal">
+            <HorizontalStackLayout
+                Margin="0,170,0,30"
+                HorizontalOptions="Center"
+                Spacing="15">
+                <Button
+                    BackgroundColor="#512BD4"
+                    Command="{Binding prevCommand}"
+                    CornerRadius="8"
+                    Text="Poprzednie"
+                    WidthRequest="110" />
+                <Button
+                    BackgroundColor="#512BD4"
+                    Command="{Binding nextCommand}"
+                    CornerRadius="8"
+                    Text="Następne"
+                    WidthRequest="110" />
+            </HorizontalStackLayout>
+        </StackLayout>
+    </Grid>
 </ContentPage>
