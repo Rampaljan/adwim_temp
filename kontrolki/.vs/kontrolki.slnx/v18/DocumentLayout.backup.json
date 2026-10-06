@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\",
+  "WorkspaceRootPath": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|c:\\users\\5d_1\\documents\\github\\adwim_temp\\kontrolki\\platforms\\android\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|solutionrelative:platforms\\android\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\platforms\\android\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:platforms\\android\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|c:\\users\\5d_1\\documents\\github\\adwim_temp\\kontrolki\\platforms\\windows\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|solutionrelative:platforms\\windows\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\platforms\\windows\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:platforms\\windows\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|c:\\users\\5d_1\\documents\\github\\adwim_temp\\kontrolki\\handlers\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|solutionrelative:handlers\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|c:\\users\\5d_1\\documents\\github\\adwim_temp\\kontrolki\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|c:\\users\\5d_1\\documents\\github\\adwim_temp\\kontrolki\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|c:\\users\\5d_1\\documents\\github\\adwim_temp\\kontrolki\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|c:\\users\\5d_1\\documents\\github\\adwim_temp\\kontrolki\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\handlers\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:handlers\\ratingviewhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|c:\\users\\5d_1\\documents\\github\\adwim_temp\\kontrolki\\controls\\ratingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3726345B-7744-4EC0-89A8-F087CA730770}|kontrolki.csproj|solutionrelative:controls\\ratingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\controls\\ratingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:controls\\ratingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RatingViewHandler.cs",
-              "DocumentMoniker": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Android\\RatingViewHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Android\\RatingViewHandler.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\RatingViewHandler.cs",
-              "ToolTip": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Android\\RatingViewHandler.cs",
+              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Android\\RatingViewHandler.cs",
               "RelativeToolTip": "Platforms\\Android\\RatingViewHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -61,92 +65,85 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "RatingViewHandler.cs",
-              "DocumentMoniker": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Windows\\RatingViewHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Windows\\RatingViewHandler.cs",
               "RelativeDocumentMoniker": "Platforms\\Windows\\RatingViewHandler.cs",
-              "ToolTip": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Windows\\RatingViewHandler.cs",
+              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Windows\\RatingViewHandler.cs",
               "RelativeToolTip": "Platforms\\Windows\\RatingViewHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T12:28:32.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T12:22:50.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T12:22:03.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T11:13:50.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-08T11:22:29.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T12:28:32.92Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T12:22:50.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T12:22:03.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:13:50.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-08T11:22:29.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RatingViewHandler.cs",
-              "DocumentMoniker": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\Handlers\\RatingViewHandler.cs",
+              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Handlers\\RatingViewHandler.cs",
               "RelativeDocumentMoniker": "Handlers\\RatingViewHandler.cs",
-              "ToolTip": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\Handlers\\RatingViewHandler.cs",
+              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Handlers\\RatingViewHandler.cs",
               "RelativeToolTip": "Handlers\\RatingViewHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T10:37:23.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T10:37:23.143Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "RatingView.cs",
-              "DocumentMoniker": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\Controls\\RatingView.cs",
+              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Controls\\RatingView.cs",
               "RelativeDocumentMoniker": "Controls\\RatingView.cs",
-              "ToolTip": "C:\\Users\\5d_1\\Documents\\GitHub\\adwim_temp\\kontrolki\\Controls\\RatingView.cs",
+              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Controls\\RatingView.cs",
               "RelativeToolTip": "Controls\\RatingView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T10:26:07.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T10:26:07.048Z"
             }
           ]
         }
