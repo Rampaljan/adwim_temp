@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="desmos.MainPage"
+             xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.Maui;assembly=LiveChartsCore.SkiaSharpView.Maui">
+
+    
+    <!--///PRZYKLAD Z DEKALOGU TWORZENIA MVVM-->
+    <!--<ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Entry Text="{Binding Pole}"/>
+            <Label Text="{Binding Odpowiedz}"/>
+            <Button Command="{Binding dupaCommand}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>-->
+    
+    
+    <lvc:CartesianChart LegendPosition="Right"> <!--<- bez tego gówna się nie chciało odpalic, bylo w przykladzie na stronce to przekopiowalem i jest git-->
+        
+        <lvc:CartesianChart.Sections>
+        <lvc:SectionsCollection>
+            <lvc:XamlRectangularSection 
+                        Xi="-0.00001"
+                        Xj="0.00001"
+                        Stroke="{Binding QuadraticPlot.AXisStroke}"
+                        Fill="{x:Null}"/>
+            <lvc:XamlRectangularSection 
+                        Yi="-0.00001"
+                        Yj="0.00001"
+                        Stroke="{Binding QuadraticPlot.AXisStroke}"
+                        Fill="{x:Null}"/>
+        </lvc:SectionsCollection>
+    </lvc:CartesianChart.Sections>
+        
+    </lvc:CartesianChart>
+
+    
+    <!--///PRZYKLAD Z DOKUMENTACJI CHARTS-->
+    <!--<lvc:CartesianChart
+        LegendPosition="Right">
+        <lvc:CartesianChart.Series>
+            <lvc:SeriesCollection>
+                <lvc:XamlLineSeries
+                    SeriesName="Mary"
+                    Values="5, 10, 8, 4"/>
+                <lvc:XamlColumnSeries
+                    SeriesName="Ana"
+                    Values="4, 7, 3, 8"/>
+            </lvc:SeriesCollection>
+        </lvc:CartesianChart.Series>
+    </lvc:CartesianChart>-->
+
+</ContentPage>

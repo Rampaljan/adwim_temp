@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="desmos.SettingsPage"
+             Title="SettingsPage">
+    <VerticalStackLayout>
+        <Label Text="Ustawienia" />
+        
+        <Entry Text="{Binding A_param}"/>
+        <Entry Text="{Binding B_param}"/>
+        <Entry Text="{Binding C_param}"/>
+        <Entry Text="{Binding Scale}"/>
+
+        <Button Command="{Binding resetujCommand}"/>
+
+    </VerticalStackLayout>
+</ContentPage>
