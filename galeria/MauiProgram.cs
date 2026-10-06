@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using galeria.ViewModels;
+using Microsoft.Extensions.Logging;
 
 namespace galeria
 {
@@ -18,7 +19,8 @@ namespace galeria
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-
+            builder.Services.AddTransient<MainViewModel>();
+            builder.Services.AddTransient<MainPage>();
             return builder.Build();
         }
     }
