@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
     x:Class="memory.GameEasyPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -6,8 +6,59 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
-            <Label Text="Poziom trudności:" />
-            <Label Text="{Binding Level}" />
+            <FlexLayout Wrap="Wrap">
+                <ImageButton
+                    Margin="20,10"
+                    Command="{Binding click1Command}"
+                    HeightRequest="200"
+                    Source="{Binding Img1}"
+                    WidthRequest="300" />
+                <ImageButton
+                    Margin="20,10"
+                    Command="{Binding click2Command}"
+                    HeightRequest="200"
+                    Source="{Binding Img2}"
+                    WidthRequest="300" />
+                <ImageButton
+                    Margin="20,10"
+                    Command="{Binding click3Command}"
+                    HeightRequest="200"
+                    Source="{Binding Img3}"
+                    WidthRequest="300" />
+                <ImageButton
+                    Margin="20,10"
+                    Command="{Binding click4Command}"
+                    HeightRequest="200"
+                    Source="{Binding Img4}"
+                    WidthRequest="300" />
+                <ImageButton
+                    Margin="20,10"
+                    Command="{Binding click5Command}"
+                    HeightRequest="200"
+                    Source="{Binding Img5}"
+                    WidthRequest="300" />
+                <ImageButton
+                    Margin="20,10"
+                    Command="{Binding click6Command}"
+                    HeightRequest="200"
+                    Source="{Binding Img6}"
+                    WidthRequest="300" />
+                <ImageButton
+                    Margin="20,10"
+                    Command="{Binding click7Command}"
+                    HeightRequest="200"
+                    Source="{Binding Img7}"
+                    WidthRequest="300" />
+                <ImageButton
+                    Margin="20,10"
+                    Command="{Binding click8Command}"
+                    HeightRequest="200"
+                    Source="{Binding Img8}"
+                    WidthRequest="300" />
+
+            </FlexLayout>
+
+
 
         </VerticalStackLayout>
     </ScrollView>

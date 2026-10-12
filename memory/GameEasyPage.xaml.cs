@@ -1,4 +1,4 @@
-﻿using memory.ViewModels;
+using memory.ViewModels;
 
 namespace memory
 {
