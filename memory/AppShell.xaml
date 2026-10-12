@@ -4,11 +4,30 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:memory"
-    Title="memory">
+    Title="memory"
+    FlyoutBehavior="Disabled">
+    <!--  to aby wylaczyc hamburgera w lewym gornym rogu  -->
+
 
     <ShellContent
-        Title="Home"
+        Title="Tryb"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <ShellContent
+        Title="Easy Game"
+        ContentTemplate="{DataTemplate local:GameEasyPage}"
+        Route="GameEasyPage" />
+
+    <ShellContent
+        Title="Middle Game"
+        ContentTemplate="{DataTemplate local:GameMidPage}"
+        Route="GameMidPage" />
+
+    <ShellContent
+        Title="Hard Game"
+        ContentTemplate="{DataTemplate local:GameHardPage}"
+        Route="GameHardPage" />
+
 
 </Shell>
