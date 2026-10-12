@@ -24,6 +24,12 @@ namespace memory.ViewModels
         string level;
 
         [RelayCommand]
+        public async Task wyjdz()
+        {
+            Application.Current?.Quit();
+        }
+
+        [RelayCommand]
         public async Task nowagra()
         {
 

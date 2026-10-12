@@ -6,8 +6,113 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
-            <Label Text="Poziom trudności:" />
-            <Label Text="{Binding Level}" />
+            <Label Text="{Binding Elapsed, StringFormat='Czas: {0:mm\\:ss}'}" />
+            <Label Text="{Binding Counter, StringFormat='Liczba ruchów: {0}'}" />
+            <FlexLayout Wrap="Wrap">
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click1Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img1}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click2Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img2}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click3Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img3}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click4Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img4}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click5Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img5}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click6Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img6}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click7Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img7}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click8Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img8}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click9Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img9}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click10Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img10}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click11Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img11}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click12Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img12}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click13Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img13}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click14Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img14}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click15Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img15}"
+                    WidthRequest="150" />
+                <ImageButton
+                    Margin="10,5"
+                    Command="{Binding click16Command}"
+                    HeightRequest="100"
+                    Source="{Binding Img16}"
+                    WidthRequest="150" />
+
+            </FlexLayout>
+
+
+            <Button
+                Margin="20,10"
+                Command="{Binding backCommand}"
+                Text="Powrót do menu" />
 
         </VerticalStackLayout>
     </ScrollView>

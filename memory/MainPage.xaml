@@ -15,6 +15,7 @@
                     <x:String>Trudny</x:String>
                 </Picker.Items>
             </Picker>
+            <Button Command="{Binding wyjdzCommand}" Text="Wyjdź" />
         </VerticalStackLayout>
     </ScrollView>
 

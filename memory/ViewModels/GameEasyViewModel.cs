@@ -68,6 +68,12 @@ namespace memory.ViewModels
         int flag = 0;
 
         [RelayCommand]
+        public async Task back()
+        {
+            await Shell.Current.GoToAsync("//MainPage");
+        }
+
+        [RelayCommand]
         public async Task click1()
         {
             if (IsBusy) return;

@@ -60,6 +60,10 @@
 
             </FlexLayout>
 
+            <Button
+                Margin="20,10"
+                Command="{Binding backCommand}"
+                Text="Powrót do menu" />
 
 
         </VerticalStackLayout>
