@@ -6,6 +6,8 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Label Text="{Binding Elapsed, StringFormat='Czas: {0:mm\\:ss}'}" />
+            <Label Text="{Binding Counter, StringFormat='Liczba ruchów: {0}'}" />
             <FlexLayout Wrap="Wrap">
                 <ImageButton
                     Margin="20,10"
