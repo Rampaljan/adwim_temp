@@ -72,19 +72,19 @@ namespace memory.ViewModels
         {
             if (IsBusy) return;
 
-            if (flag != 1 && !block1)
+            if (flag != 1 && !block1) //flag != n && !blockn
             {
-                if (Img1 == "question_mark.png")
+                if (Img1 == "question_mark.png") //Imgn
                 {
                     if (flag == 0)
                     {
-                        Img1 = actualImg1;
+                        Img1 = actualImg1; //Imgn = actualImgn
                         flag = 1;
                     }
                     else
                     {
                         Counter += 1;
-                        Img1 = actualImg1; //tu do zmiany
+                        Img1 = actualImg1; //Imgn = actualImgn
 
                         string otherActual = flag switch
                         {
@@ -97,13 +97,13 @@ namespace memory.ViewModels
                             7 => actualImg7,
                             8 => actualImg8,
                             _ => ""
-                        };
+                        };//tu dodać wiecej elementów, tyle ile jest obrazków
 
-                        if (otherActual == actualImg1) //tu do zmiany
+                        if (otherActual == actualImg1) //actualImgn
                         {
 
 
-                            block1 = true; //tu do zmiany
+                            block1 = true; //blockn
 
                             switch (flag)
                             {
@@ -115,12 +115,12 @@ namespace memory.ViewModels
                                 case 6: block6 = true; break;
                                 case 7: block7 = true; break;
                                 case 8: block8 = true; break;
-                            }
+                            }//tu dodać wiecej elementów, tyle ile jest obrazków
 
                             flag = 0;
 
                             //finished?
-                            if (block1 && block2 && block3 && block4 && block5 && block6 && block7 && block8)
+                            if (block1 && block2 && block3 && block4 && block5 && block6 && block7 && block8) //dodać blocki
                             {
                                 await HandleWin();
                             }
@@ -132,7 +132,7 @@ namespace memory.ViewModels
                             {
                                 await Task.Delay(2000);
 
-                                Img1 = "question_mark.png"; //tu do zmiany
+                                Img1 = "question_mark.png"; //Imgn
 
                                 switch (flag)
                                 {
@@ -144,7 +144,7 @@ namespace memory.ViewModels
                                     case 6: Img6 = "question_mark.png"; break;
                                     case 7: Img7 = "question_mark.png"; break;
                                     case 8: Img8 = "question_mark.png"; break;
-                                }
+                                }//tu dodać wiecej elementów, tyle ile jest obrazków
 
                                 flag = 0;
                             }
@@ -787,7 +787,7 @@ namespace memory.ViewModels
                     "b.png", "b.png",
                     "c.png", "c.png",
                     "d.png", "d.png"
-                };
+                };//tu dodać wiecej elementów, tyle ile jest obrazków
 
             var rng = new Random();
             for (int i = obrazki.Count - 1; i > 0; i--)
@@ -804,6 +804,7 @@ namespace memory.ViewModels
             actualImg6 = obrazki[5];
             actualImg7 = obrazki[6];
             actualImg8 = obrazki[7];
+            //tu dodać wiecej elementów, tyle ile jest obrazków
 
             //timer
             _startTime = DateTime.Now;
