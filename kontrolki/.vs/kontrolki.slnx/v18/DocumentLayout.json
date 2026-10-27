@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A17D6578-FC1D-2269-7606-E4DC7E9F85F5}|kontrolki.csproj|c:\\users\\rampa\\documents\\github\\adwim_temp\\kontrolki\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,71 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Windows\\App.xaml",
-              "RelativeDocumentMoniker": "Platforms\\Windows\\App.xaml",
-              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\Platforms\\Windows\\App.xaml",
-              "RelativeToolTip": "Platforms\\Windows\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-12T20:43:50.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
               "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T20:43:22.523Z",
+              "WhenOpened": "2026-10-12T20:50:19.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-12T20:43:19.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-12T20:43:17.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-12T20:43:15.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\rampa\\Documents\\GitHub\\adwim_temp\\kontrolki\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
@@ -115,7 +47,7 @@
               "RelativeToolTip": "ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-12T20:43:12.647Z",
+              "WhenOpened": "2026-10-12T20:48:36.108Z",
               "EditorCaption": ""
             }
           ]
