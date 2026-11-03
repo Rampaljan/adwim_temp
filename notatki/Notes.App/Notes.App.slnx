@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../Notes.Data/Notes.Data.csproj" />
+  <Project Path="../Notes.MigrationHelper/Notes.MigrationHelper.csproj" />
+  <Project Path="Notes.App.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
