@@ -9,10 +9,11 @@
             HorizontalOptions="Center" />
 
 
-        <Entry Text="{Binding Pole}"/>
+        <!--<Entry Text="{Binding Pole}"/>
         <Label Text="{Binding Odpowiedz}"/>
-        <Button Command="{Binding dupaCommand}"/>
-        
-        
+        <Button Command="{Binding dupaCommand}"/>-->
+
+        <Button Text="Dodaj notatkę" Command="{Binding dodajnotatkeCommand}"/>
+
     </VerticalStackLayout>
 </ContentPage>

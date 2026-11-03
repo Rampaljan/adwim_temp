@@ -6,29 +6,15 @@
     xmlns:local="clr-namespace:Notes.App"
     Title="Notatki">
 
-    <ShellContent
-        Title="Lista notatek"
-        ContentTemplate="{DataTemplate local:NotesList}"
-        Route="NotesList" />
+    <FlyoutItem Title="Lista notatek" Icon="notka.png">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:NotesList}"/>
+    </FlyoutItem>
 
-    <ShellContent
-        Title="Dodaj notatkę"
-        ContentTemplate="{DataTemplate local:AddNote}"
-        Route="AddNote" />
+    <FlyoutItem Title="Lista kategorii" Icon="kateg.png">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:CategoryList}"/>
+    </FlyoutItem>
 
-    <ShellContent
-        Title="Lista kategorii"
-        ContentTemplate="{DataTemplate local:CategoryList}"
-        Route="CategoryList" />
-
-    <ShellContent
-        Title="Dodaj kategorię"
-        ContentTemplate="{DataTemplate local:AddCategory}"
-        Route="AddCategory" />
-
-    <ShellContent
-        Title="Pojedyńcza notatka"
-        ContentTemplate="{DataTemplate local:DisplayClickedNote}"
-        Route="DisplayClickedNote" />
 
 </Shell>

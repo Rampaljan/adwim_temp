@@ -11,17 +11,23 @@ namespace Notes.App.ViewModels
 {
     public partial class NotesListViewModel : ObservableObject
     {
-        [ObservableProperty]
-        string pole;
+        //[ObservableProperty]
+        //string pole;
 
-        [ObservableProperty]
-        string odpowiedz;
+        //[ObservableProperty]
+        //string odpowiedz;
+
+        //[RelayCommand]
+        //public async Task dupa()
+        //{
+        //    await Shell.Current.DisplayAlert("dupa", odpowiedz, "ok");
+        //    Odpowiedz = Pole;
+        //}
 
         [RelayCommand]
-        public async Task dupa()
+        public async Task dodajnotatke()
         {
-            await Shell.Current.DisplayAlert("dupa", odpowiedz, "ok");
-            Odpowiedz = Pole;
+            await Shell.Current.GoToAsync("AddNote");
         }
     }
 }

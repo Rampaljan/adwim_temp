@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.App.AddNote">
     <VerticalStackLayout>
+        
+        
         <Label 
             Text="dodaj notatek"
             VerticalOptions="Center" 
@@ -11,7 +13,7 @@
 
         <Entry Text="{Binding Pole}"/>
         <Label Text="{Binding Odpowiedz}"/>
-        <Button Command="{Binding dupaCommand}"/>
+        <Button Text="test"  Command="{Binding dupaCommand}"/>
         
     </VerticalStackLayout>
 </ContentPage>
