@@ -4,11 +4,31 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Notes.App"
-    Title="Notes.App">
+    Title="Notatki">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Lista notatek"
+        ContentTemplate="{DataTemplate local:NotesList}"
+        Route="NotesList" />
+
+    <ShellContent
+        Title="Dodaj notatkę"
+        ContentTemplate="{DataTemplate local:AddNote}"
+        Route="AddNote" />
+
+    <ShellContent
+        Title="Lista kategorii"
+        ContentTemplate="{DataTemplate local:CategoryList}"
+        Route="CategoryList" />
+
+    <ShellContent
+        Title="Dodaj kategorię"
+        ContentTemplate="{DataTemplate local:AddCategory}"
+        Route="AddCategory" />
+
+    <ShellContent
+        Title="Pojedyńcza notatka"
+        ContentTemplate="{DataTemplate local:DisplayClickedNote}"
+        Route="DisplayClickedNote" />
 
 </Shell>

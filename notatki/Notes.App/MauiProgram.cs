@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Notes.App.ViewModels;
 
 namespace Notes.App
 {
@@ -18,6 +19,23 @@ namespace Notes.App
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<AddCategory>();
+            builder.Services.AddSingleton<AddCategoryViewModel>();
+
+            builder.Services.AddSingleton<AddNote>();
+            builder.Services.AddSingleton<AddNoteViewModel>();
+
+            builder.Services.AddSingleton<CategoryList>();
+            builder.Services.AddSingleton<CategoryListViewModel>();
+
+            builder.Services.AddSingleton<DisplayClickedNote>();
+            builder.Services.AddSingleton<DisplayClickedNoteViewModel>();
+
+            builder.Services.AddSingleton<NotesList>();
+            builder.Services.AddSingleton<NotesListViewModel>();
+
+
+
 
             return builder.Build();
         }
